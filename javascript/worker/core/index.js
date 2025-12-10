@@ -1,9 +1,9 @@
 const { orkesConductorClient } = require("@io-orkes/conductor-javascript");
 const { TaskManager } = require("@io-orkes/conductor-javascript");
 const serverSettings = {
-  keyId: "** put your keyId here **",
-  keySecret: "** put your keySecret here **",
-  serverUrl: "http://play.orkes.io/api",
+  keyId: "_auth_key_",
+  keySecret: "_auth_secret_",
+  serverUrl: "_server_url_",
 };
 
 const clientPromise = orkesConductorClient(serverSettings);

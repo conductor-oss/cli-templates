@@ -1,0 +1,40 @@
+{
+  "files": [
+    {
+      "name": "README.md"
+    },
+    {
+      "name": "gradle/wrapper/gradle-wrapper.jar"
+    },
+    {
+      "name": "gradle/wrapper/gradle-wrapper.properties"
+    },
+    {
+      "name": "gradlew"
+    },
+    {
+      "name": "build.gradle"
+    },
+    {
+      "name": "gradlew.bat"
+    },
+    {
+      "name": "settings.gradle"
+    },
+    {
+      "name": "src/main/resources/application.properties"
+    },
+    {
+      "name": "src/main/java/io/orkes/examples/Application.java"
+    },
+    {
+      "name": "src/main/java/io/orkes/examples/Worker.java",
+      "fields": [
+        {
+          "name": "taskname",
+          "prompt": "Enter a task name:"
+        }
+      ]
+    }
+  ]
+}

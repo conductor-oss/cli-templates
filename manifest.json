@@ -1,19 +1,34 @@
- {
-    "languages": [
-      {
-        "name": "Javascript",
-        "frameworks": [
-          {
-            "name": "core",
-            "templates": [
-              {
-                "name": "basic-worker",
-                "description": "Basic Javascript worker with Conductor SDK",
-                "path": "javascript/worker/core"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+{
+  "languages": [
+    {
+      "name": "Javascript",
+      "frameworks": [
+        {
+          "name": "core",
+          "templates": [
+            {
+              "name": "basic-worker",
+              "description": "Basic Javascript worker with Conductor SDK",
+              "path": "javascript/worker/core"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Java",
+      "frameworks": [
+        {
+          "name": "spring",
+          "templates": [
+            {
+              "name": "basic-worker",
+              "description": "Basic Java + Spring worker with Conductor SDK",
+              "path": "java/worker/spring"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

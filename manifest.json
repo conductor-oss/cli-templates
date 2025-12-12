@@ -59,7 +59,7 @@
           ]
         },
         {
-          "name": "stio",
+          "name": "stdio",
           "templates": [
             {
               "name": "stdio-worker",

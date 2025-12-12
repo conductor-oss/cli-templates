@@ -57,6 +57,16 @@
               "path": "python/worker/core"
             }
           ]
+        },
+        {
+          "name": "stio",
+          "templates": [
+            {
+              "name": "stdio-worker",
+              "description": "Sample Python STDIO worker to be use with Conductor CLI",
+              "path": "python/worker/stdio"
+            }
+          ]
         }
       ]
     }

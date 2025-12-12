@@ -12,10 +12,10 @@ import (
 )
 
 
-const SERVER_URL = "_server_url_"
-const KEY_ID = "_auth_key_"
-const SECRET = "_auth_secret_"
-const TASK_NAME = "_taskname_"
+const SERVER_URL = "{{server_url}}"
+const KEY_ID = "{{auth_key}}"
+const SECRET = "{{auth_secret}}"
+const TASK_NAME = "{{taskname}}"
 
 func workerFn(task *model.Task) (any, error) {
 	return map[string]interface{}{

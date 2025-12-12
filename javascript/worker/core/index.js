@@ -1,9 +1,9 @@
 const { orkesConductorClient } = require("@io-orkes/conductor-javascript");
 const { TaskManager } = require("@io-orkes/conductor-javascript");
 const serverSettings = {
-  keyId: "_auth_key_",
-  keySecret: "_auth_secret_",
-  serverUrl: "_server_url_",
+  keyId: "{{auth_key}}",
+  keySecret: "{{auth_secret}}",
+  serverUrl: "{{server_url}}",
 };
 
 const clientPromise = orkesConductorClient(serverSettings);
@@ -13,7 +13,7 @@ async function createTaskManager() {
     client,
     [
     {
-    taskDefName: "_taskname_",
+    taskDefName: "{{taskname}}",
     execute: async ({ inputData }) => {
     
       const message ="Hello world"

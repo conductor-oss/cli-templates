@@ -4,9 +4,9 @@ from conductor.client.configuration.settings.authentication_settings import Auth
 from worker import *
 
 def main():
-    configuration = Configuration(server_api_url='_server_url_',
-        authentication_settings=AuthenticationSettings(key_id='_auth_key_',
-                                    key_secret='_auth_secret_'))
+    configuration = Configuration(server_api_url='{{server_url}}',
+        authentication_settings=AuthenticationSettings(key_id='{{auth_key}}',
+                                    key_secret='{{auth_secret}}'))
     task_handler = TaskHandler(
         configuration=configuration,
         scan_for_annotated_workers=True

@@ -12,6 +12,16 @@
               "path": "csharp/worker/core"
             }
           ]
+        },
+        {
+          "name": "stdio",
+          "templates": [
+            {
+              "name": "stdio-worker",
+              "description": "Sample C# STDIO worker to be use with Conductor CLI",
+              "path": "csharp/worker/stdio"
+            }
+          ]
         }
       ]
     },
@@ -25,6 +35,16 @@
               "name": "basic-worker",
               "description": "Basic Go worker with Conductor SDK",
               "path": "go/worker/core"
+            }
+          ]
+        },
+        {
+          "name": "stdio",
+          "templates": [
+            {
+              "name": "stdio-worker",
+              "description": "Sample Go STDIO worker to be use with Conductor CLI",
+              "path": "go/worker/stdio"
             }
           ]
         }

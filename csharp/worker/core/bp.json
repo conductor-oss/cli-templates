@@ -1,0 +1,22 @@
+{
+  "files": [
+    {
+      "name": "Worker.cs",
+      "fields": [
+        {
+          "name": "taskname",
+          "prompt": "Enter a task name:"
+        }
+      ]
+    },
+    {
+      "name": "worker.csproj"
+    },
+    {
+      "name": "worker.sln"
+    },
+    {
+      "name": "README.md"
+    }
+  ]
+}

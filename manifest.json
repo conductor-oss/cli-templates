@@ -1,6 +1,21 @@
 {
   "languages": [
     {
+      "name": "C#",
+      "frameworks": [
+        {
+          "name": "core",
+          "templates": [
+            {
+              "name": "basic-worker",
+              "description": "Basic C# worker with Conductor SDK",
+              "path": "csharp/worker/core"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "Go",
       "frameworks": [
         {
